@@ -14,12 +14,12 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 1rem;
 
     li {
       background: var(--white);
       border: 1px solid var(--gray-100);
-      padding: 1.25rem;
+      padding: 1rem;
       border-radius: 1.5rem;
       position: relative;
       display: flex;
@@ -33,7 +33,6 @@
 
       .episodeDetails {
         flex: 1;
-        margin-left: 1rem;
 
         a {
           display: block;

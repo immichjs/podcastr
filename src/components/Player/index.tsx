@@ -84,7 +84,7 @@ export function Player () {
           <button type="button" disabled={!episode}>
             <img src="/play-previous.svg" alt="Tocar anterior"/>
           </button>
-          <button type="button" disabled={!episode} onClick={togglePlay}>
+          <button type="button" disabled={!episode} onClick={togglePlay} className={styles.playButton}>
             { isPlaying 
               ? <img src="/pause.svg" alt="Tocar"/>
               : <img src="/play.svg" alt="Tocar"/>
